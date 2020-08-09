@@ -1,0 +1,38 @@
+QFrame, #window {
+	background-color: #444;
+	border: 5px;
+	outline: 0;
+}
+
+QPushButton {
+	background-color: #444;
+	border: 0px;
+	color: #ddd;
+}
+
+QTextEdit {
+	font-size: 20px;
+	background-color: #303030;
+	color: #fff;
+}
+
+QPushButton:checked{
+	background-color: #24b54b;
+	color: #f7f7f7;
+}
+
+QPushButton:focus {
+	outline: 0;
+}
+
+#bold_button {
+	font-weight: bold;
+}
+
+#italic_button {
+	font-style: italic;
+}
+
+#under_button {
+	text-decoration: underline;
+}
